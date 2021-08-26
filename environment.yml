@@ -1,0 +1,38 @@
+name: bsard
+channels:
+  - defaults
+  - conda-forge
+  - anaconda
+  - huggingface
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8
+  - pip
+  - ipykernel
+  - nbformat
+  - numpy>=1.20
+  - pandas
+  - seaborn
+  - scrapy
+  - unidecode
+  - packaging
+  - dash
+  - psutil
+  - python-kaleido
+  - plotly-orca
+  - matplotlib
+  - wordcloud
+  - spacy
+  - nltk
+  - scikit-learn
+  - gensim<=4.0
+  - pytorch
+  - cudatoolkit=11.1
+  - transformers
+  - sentencepiece
+  - pip:
+    - google_trans_new
+    - protego
+    - fasttext
+    - knockknock
