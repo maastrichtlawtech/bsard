@@ -1,8 +1,10 @@
-import dash
-import dash_core_components as dcc
-import dash_html_components as html
-import plotly.express as px
+import os
 import pandas as pd
+
+import dash
+from dash import dcc
+from dash import html
+import plotly.express as px
 
 import utils
 import settings
@@ -11,8 +13,8 @@ import settings
 #------------------------#
 # Data                   #
 #------------------------#
-dfQ_train = pd.read_csv('../../data/bsard_v1/questions_fr_train.csv')
-dfQ_test = pd.read_csv('../../data/bsard_v1/questions_fr_test.csv')
+dfQ_train = pd.read_csv(os.path.abspath(os.path.join(__file__ , "../../../../data/bsard_v1/questions_fr_train.csv")))
+dfQ_test = pd.read_csv(os.path.abspath(os.path.join(__file__ , "../../../../data/bsard_v1/questions_fr_test.csv")))
 dfQ = pd.concat([dfQ_train, dfQ_test])
 
 #------------------------#

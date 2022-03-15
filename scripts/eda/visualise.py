@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import os
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+from dash import dcc
+from dash import html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
@@ -22,7 +22,7 @@ app.layout = html.Div(style={'backgroundColor': COLORS[THEME]['dash']['backgroun
                                 value='tab-'+str(i+1), 
                                 style=TAB_STYLE,
                                 selected_style=SELECTED_TAB_STYLE)
-                        for i, _ in enumerate(next(os.walk('./figures'))[2])],
+                        for i, _ in enumerate(next(os.walk(os.path.abspath(os.path.join(__file__ , "../figures"))))[2])],
             style=TABS_STYLE),
     html.Div(id='tabs-content')
 ])

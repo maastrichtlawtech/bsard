@@ -14,7 +14,7 @@ from plotly.subplots import make_subplots
 from settings import THEME, COLORS
 
 
-STOPWORDS = set(nltk.corpus.stopwords.words('french')) | spacy.load("fr_core_news_sm").Defaults.stop_words
+STOPWORDS = set(nltk.corpus.stopwords.words('french')) | spacy.load("fr_core_news_md").Defaults.stop_words
 
 EN_CATEGORY = {
     'Famille': 'Family', 

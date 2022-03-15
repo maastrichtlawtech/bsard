@@ -1,15 +1,16 @@
+import os
+import numpy as np
+import pandas as pd
+
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import html
+from dash import dcc
 import plotly.express as px
 
 import base64
 from io import BytesIO
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
-
-import numpy as np
-import pandas as pd
 
 import utils
 from settings import THEME, COLORS
@@ -18,7 +19,7 @@ from settings import THEME, COLORS
 #------------------------#
 # Data                   #
 #------------------------#
-dfA = pd.read_csv('../../data/bsard_v1/articles_fr.csv')
+dfA = pd.read_csv(os.path.abspath(os.path.join(__file__ , "../../../../data/bsard_v1/articles_fr.csv")))
 
 #------------------------#
 # Plotly figure          #
