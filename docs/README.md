@@ -88,7 +88,7 @@ python scripts/experiments/run_zeroshot_evaluation.py \
     --articles_path </path/to/articles.csv> \
     --questions_path </path/to/questions_test.csv> \
     --retriever_model {word2vec, fasttext, camembert} \ 
-    --lem \                                           # [Only for word2vec and fastText] Lemmatize both articles and questions as pre-processing.
+    --lem \ # [Only for word2vec and fastText] Lemmatize both articles and questions as pre-processing.
     --output_dir </path/to/output>
 ```
 
