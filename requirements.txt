@@ -10,3 +10,4 @@ spacy==3.2.3
 seaborn==0.11.2
 dash==2.3.0
 wordcloud==1.8.1
+datasets==1.18.4

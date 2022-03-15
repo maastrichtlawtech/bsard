@@ -8,11 +8,32 @@ This repository contains:
 * Web application to visualize insightful statistics about BSARD.
 * Code for training and evaluating strong IR models on BSARD.
 
+### Setup
+
+This repository is tested on Python 3.8+. First, you should install a virtual environment by running:
+
+```bash
+python3 -m venv .venv/bsard
+source .venv/bsard/bin/activate
+```
+
+Then, you can install all dependencies by running:
+
+```bash
+pip install -r requirements.txt
+```
+
+In addition, please install spaCy's [fr_core_news_md](https://spacy.io/models/fr#fr_core_news_md) pipeline (needed for text processing) by running:
+
+```bash
+python3 -m spacy download fr_core_news_md
+```
+
 ## BSARD: The Belgian Statutory Article Retrieval Dataset
 
 ### Access
 
-In addition to [Zenodo](https://zenodo.org/record/5217310), we provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/antoiloui/bsard). You simply need to install the [datasets](https://pypi.org/project/datasets/) library and then run:
+In addition to [Zenodo](https://zenodo.org/record/5217310), we provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/antoiloui/bsard). You simply need to run:
 
 ```python
 from datasets import load_dataset 
@@ -39,33 +60,6 @@ python scripts/eda/visualise.py
 
 ## Experiments
 
-### Setup
-
-This repository is tested on Python 3.8+. First, you should install a virtual environment by running:
-
-```bash
-python3 -m venv .venv/bsard
-source .venv/bsard/bin/activate
-```
-
-Then, you can install all dependencies by running:
-
-```bash
-pip install -r requirements.txt
-```
-
-In addition, please install spaCy's [fr_core_news_md](https://spacy.io/models/fr#fr_core_news_md) pipeline (needed for text processing) by running:
-
-```bash
-python3 -m spacy download fr_core_news_md
-```
-
-Lastly, download the pre-trained French [fastText](https://fasttext.cc/docs/en/crawl-vectors.html#models) and [word2vec](https://fauconnier.github.io/#data) embeddings by running:
-
-```bash
-bash scripts/experiments/utils/download_embeddings.sh
-```
-
 ### Lexical Models
 
 In order to evaluate the TF-IDF and BM25 models, run:
@@ -83,7 +77,13 @@ python scripts/experiments/run_zeroshot_evaluation.py \
 
 #### Zero-Shot Evaluation
 
-In order to evaluate the bi-encoder models in a zero-shot setup, run:
+First, download the pre-trained French [fastText](https://fasttext.cc/docs/en/crawl-vectors.html#models) and [word2vec](https://fauconnier.github.io/#data) embeddings by running:
+
+```bash
+bash scripts/experiments/utils/download_embeddings.sh
+```
+
+Then, you can evaluate the bi-encoder models in a zero-shot setup by running:
 
 ```bash
 python scripts/experiments/run_zeroshot_evaluation.py \
