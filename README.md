@@ -5,7 +5,7 @@
 
 # A Statutory Article Retrieval Dataset in French
 
-This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the [associated paper](https://arxiv.org/abs/2108.) by [A. Louis](https://www.antoiloui.com/work/) and [G. Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
+This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the [associated paper](https://arxiv.org/abs/2108.11792) by [A. Louis](https://www.antoiloui.com/work/) and [G. Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
 
 <img align="center" src="docs/img/task.png" width="1000">
 
