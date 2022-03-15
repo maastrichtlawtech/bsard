@@ -10,20 +10,20 @@ This repository contains:
 
 ### Setup
 
-This repository is tested on Python 3.8+. First, you should install a virtual environment by running:
+This repository is tested on Python 3.8+. First, you should install a virtual environment:
 
 ```bash
 python3 -m venv .venv/bsard
 source .venv/bsard/bin/activate
 ```
 
-Then, you can install all dependencies by running:
+Then, you can install all dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-In addition, please install spaCy's [fr_core_news_md](https://spacy.io/models/fr#fr_core_news_md) pipeline (needed for text processing) by running:
+Additionally, you should install spaCy's [fr_core_news_md](https://spacy.io/models/fr#fr_core_news_md) pipeline (needed for text processing):
 
 ```bash
 python3 -m spacy download fr_core_news_md
@@ -77,13 +77,13 @@ python scripts/experiments/run_zeroshot_evaluation.py \
 
 #### Zero-Shot Evaluation
 
-First, download the pre-trained French [fastText](https://fasttext.cc/docs/en/crawl-vectors.html#models) and [word2vec](https://fauconnier.github.io/#data) embeddings by running:
+First, download the pre-trained French [fastText](https://fasttext.cc/docs/en/crawl-vectors.html#models) and [word2vec](https://fauconnier.github.io/#data) embeddings:
 
 ```bash
 bash scripts/experiments/utils/download_embeddings.sh
 ```
 
-Then, you can evaluate the bi-encoder models in a zero-shot setup by running:
+Then, you can evaluate the bi-encoder models in a zero-shot setup:
 
 ```bash
 python scripts/experiments/run_zeroshot_evaluation.py \
