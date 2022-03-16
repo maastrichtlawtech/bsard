@@ -1,6 +1,6 @@
 <img src="docs/img/icon.png" width=125 height=125 align="right">
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Load w. Hugging Face](https://img.shields.io/static/v1.svg?label=🤗&message=Load%20w.%20Hugging%20Face&color=FF9900)](https://huggingface.co/datasets/antoiloui/bsard)
 
 # A Statutory Article Retrieval Dataset in French
