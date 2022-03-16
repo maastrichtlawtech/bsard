@@ -1,5 +1,7 @@
 <img src="img/icon.png" width=125 height=125 align="right">
 
+[![Python: 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 # A Statutory Article Retrieval Dataset in French
 
 This repository contains:
@@ -33,7 +35,7 @@ python3 -m spacy download fr_core_news_md
 
 ### Access
 
-In addition to [Zenodo](https://zenodo.org/record/5217310), we provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/antoiloui/bsard). You simply need to run:
+We provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/antoiloui/bsard). To load the dataset, you simply need to run:
 
 ```python
 from datasets import load_dataset 
