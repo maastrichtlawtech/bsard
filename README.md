@@ -6,7 +6,7 @@
 
 # A Statutory Article Retrieval Dataset in French
 
-This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the associated [paper](https://arxiv.org/abs/2108.11792) by [Antoine Louis](https://www.antoiloui.com/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
+This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the associated [paper](https://aclanthology.org/2022.acl-long.468/) by [Antoine Louis](https://www.antoiloui.com/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
 
 <img align="center" src="docs/img/task.png" width="1000">
 
@@ -29,9 +29,8 @@ For attribution in academic contexts, please cite this work as:
   year = {2022},
   address = {Dublin, Ireland},
   publisher = {Association for Computational Linguistics},
-  url = {},
-  doi = {},
-  pages = {To appear},
+  url = {https://aclanthology.org/2022.acl-long.468},
+  pages = {6789--6803},
 }
 ```
 
