@@ -35,11 +35,11 @@ python3 -m spacy download fr_core_news_md
 
 ### Access
 
-We provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/antoiloui/bsard). To load the dataset, you simply need to run:
+We provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/maastrichtlawtech/bsard). To load the dataset, you simply need to run:
 
 ```python
 from datasets import load_dataset 
-dataset = load_dataset("antoiloui/bsard") 
+dataset = load_dataset("maastrichtlawtech/bsard") 
 ```
 
 ### Documentation
