@@ -2,11 +2,11 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
-[![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=loader&message=🤗%20datasets&color=FF9900)](https://huggingface.co/datasets/antoiloui/bsard)
+[![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=loader&message=🤗%20datasets&color=FF9900)](https://huggingface.co/datasets/maastrichtlawtech/bsard)
 
 # A Statutory Article Retrieval Dataset in French
 
-This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the associated [paper](https://aclanthology.org/2022.acl-long.468/) by [Antoine Louis](https://www.antoiloui.com/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
+This repository contains the Belgian Statutory Article Retrieval Dataset (BSARD), as well as the code to reproduce the experimental results from the associated [paper](https://aclanthology.org/2022.acl-long.468/) by [Antoine Louis]((https:/antoinelouis.co/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
 
 <img align="center" src="docs/img/task.png" width="1000">
 
