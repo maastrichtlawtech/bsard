@@ -1,12 +1,11 @@
 <img src="docs/img/icon.png" width=125 height=125 align="right">
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
 [![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=loader&message=🤗%20datasets&color=FF9900)](https://huggingface.co/datasets/maastrichtlawtech/bsard)
 
 # A Statutory Article Retrieval Dataset in French
 
-This repository contains the dataset and code for reproducing the experimental results presented in the ACL 2022 paper "[A Statutory Article Retrieval Dataset in French"](https://aclanthology.org/2022.acl-long.468/)" by [Antoine Louis](https:/antoinelouis.co/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
+This repository contains the code for reproducing the experimental results presented in the ACL 2022 paper ["A Statutory Article Retrieval Dataset in French"](https://aclanthology.org/2022.acl-long.468/) by [Antoine Louis](https:/antoinelouis.co/work/) and [Jerry Spanakis](https://dke.maastrichtuniversity.nl/jerry.spanakis/).
 
 <img align="center" src="docs/img/task.png" width="1000">
 
@@ -36,4 +35,4 @@ For attribution in academic contexts, please cite this work as:
 
 ## License
 
-This repository is licensed under the terms of the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+This repository is MIT-licensed.
