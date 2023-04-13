@@ -1,8 +1,8 @@
 <img src="docs/img/icon.png" width=125 height=125 align="right">
 
 [![Python: 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
 [![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=loader&message=🤗%20datasets&color=FF9900)](https://huggingface.co/datasets/maastrichtlawtech/bsard)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
 
 # A Statutory Article Retrieval Dataset in French
 
