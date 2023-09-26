@@ -34,8 +34,23 @@ python3 -m spacy download fr_core_news_md
 We provide access to BSARD on [🤗 Datasets](https://huggingface.co/datasets/maastrichtlawtech/bsard). To load the dataset, you simply need to run:
 
 ```python
-from datasets import load_dataset 
-dataset = load_dataset("maastrichtlawtech/bsard") 
+from datasets import load_dataset
+
+repo = "maastrichtlawtech/bsard"
+
+# Load corpus of statutory articles.
+articles = load_dataset(repo, name="corpus")
+
+# Load training questions.
+train_questions = load_dataset(repo, name="questions", split="train")
+train_negatives = load_dataset(repo, name="negatives", split="train")
+
+# Optional: load synthetic questions for extra training samples.
+synthetic_questions = load_dataset(repo, name="questions", split="synthetic")
+synthetic_negatives = load_dataset(repo, name="negatives", split="synthetic")
+
+# Load testing questions.
+test_questions = load_dataset(repo, name="questions", split="test")
 ```
 
 ### Documentation

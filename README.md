@@ -1,8 +1,9 @@
 <img src="docs/img/icon.png" width=125 height=125 align="right">
 
-[![Python: 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=loader&message=🤗%20datasets&color=FF9900)](https://huggingface.co/datasets/maastrichtlawtech/bsard)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5217310.svg)](https://doi.org/10.5281/zenodo.5217310)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python: 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![arXiv](https://img.shields.io/badge/arXiv-2108.11792-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2108.11792)
+[![Loader: Hugging Face Datasets](https://img.shields.io/static/v1.svg?label=🤗%20Datasets&message=BSARD&color=FF9900)](https://huggingface.co/datasets/maastrichtlawtech/bsard)
 
 # A Statutory Article Retrieval Dataset in French
 
